@@ -3,9 +3,10 @@
   font-size: .8em; }
   .top-bar span {
     line-height: 3.25;
-    margin-left: 1em; }
+    margin-left: 1em;
+    float: left; }
   .top-bar nav {
-    float: right; }
+    float: left; }
   .top-bar a {
     text-decoration: none;
     margin: 0 4.6em 0 0; }
@@ -30,18 +31,18 @@
     margin-top: 2.3em; }
 
 .mid1 {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 8em; }
   .mid1 a > p {
     color: #393939;
-    text-decoration: none;
-    text-underline-position: none; }
+    text-decoration: none; }
   .mid1 > div {
-    font-size: 1.5em;
-    color: #8f8f8f; }
+    font-size: 1.5em; }
   .mid1 .personal > div:first-child {
     margin: 2em 3% 0 3%;
     padding: 2em 0;
-    background-color: green; }
+    background-color: green;
+    color: rgba(255, 255, 255, 0.5); }
     .mid1 .personal > div:first-child p:first-child {
       margin-top: 0em;
       margin-bottom: 0;
@@ -82,7 +83,8 @@
   .mid1 .sm-bus > div:first-child {
     margin: 2em 3% 0 3%;
     padding: 2em 0;
-    background-color: #2C4985; }
+    background-color: #2C4985;
+    color: rgba(255, 255, 255, 0.5); }
     .mid1 .sm-bus > div:first-child p:first-child {
       margin-top: 0em;
       margin-bottom: 0;
@@ -123,7 +125,8 @@
   .mid1 .enterprise > div:first-child {
     margin: 2em 3% 0 3%;
     padding: 2em 0;
-    background-color: black; }
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5); }
     .mid1 .enterprise > div:first-child p:first-child {
       margin-top: 0em;
       margin-bottom: 0;
@@ -160,6 +163,26 @@
       font-size: .8em;
       line-height: 1.5em;
       padding: .3em; }
+
+.mid2 {
+  margin: 3em 16% 1em 7%; }
+  .mid2 h3 {
+    letter-spacing: .3em;
+    font-weight: 500;
+    padding-bottom: 1em; }
+  .mid2 h3 p {
+    letter-spacing: 0em;
+    font-weight: 100; }
+
+footer {
+  margin: 2em 3% 0 3%;
+  padding: 2em 1em;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-weight: 200; }
+  footer a {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */

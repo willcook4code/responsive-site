@@ -5,9 +5,10 @@
 	span {
 	line-height: 3.25;
 	margin-left: 1em;
+	float: left
 	}
 	nav {
-		float: right;
+		float: left;
 
 	}
 	a {
@@ -40,19 +41,20 @@
 }
 .mid1 {
 	text-align: center;
+	margin-bottom: 8em;
 	a > p {
 		color: #393939;
 		text-decoration: none;
-		text-underline-position: none;
 	}
 	> div {
 		font-size: 1.5em;
-		color: #8f8f8f;
+
 	}
 	.personal > div:first-child {
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
 		background-color: green;
+		color: rgba(255, 255, 255, .5);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -103,6 +105,7 @@
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
 		background-color: #2C4985;
+		color: rgba(255, 255, 255, .5);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -153,6 +156,7 @@
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
 		background-color: black;
+		color: rgba(255, 255, 255, .5);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -198,6 +202,30 @@
     		padding: .3em;
 		}
 	}
+}
+.mid2 {
+	margin: 3em 16% 1em 7%;
+	h3{
+		letter-spacing: .3em;
+		font-weight: 500;
+		padding-bottom: 1em;
+	}
+	h3 p{
+		letter-spacing: 0em;
+		font-weight: 100;
+	}
+}
+footer {
+	margin: 2em 3% 0 3%;
+	padding: 2em 1em;
+	background-color: black;
+	color: rgba(255, 255, 255, .5);
+	text-align: center;
+	font-weight: 200;
+	a {
+		color: white;
+	}
+
 }
 
 
