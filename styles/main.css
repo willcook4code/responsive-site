@@ -186,13 +186,9 @@ footer {
     color: white; }
 
 @media (min-width: 479px) {
-  .main .tree-pic {
-    font-size: 214%; }
-    .main .tree-pic p:first-child {
-      margin-top: 2.7em;
-      margin-bottom: 0em; }
-    .main .tree-pic p:last-child {
-      margin: 0em; } }
+  .tree-pic {
+    font-size: 3em;
+    padding: 2.5em 0 2.5em 0; } }
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 

@@ -229,21 +229,14 @@ footer {
 
 }
 @media (min-width: 479px)	{
-	header {
-
-	}
-	.main {
 	.tree-pic{
-		font-size: 214%;
-		p:first-child {
-			margin-top: 2.7em;
-			margin-bottom: 0em;
-		}
-		p:last-child {
-			margin: 0em;
-		}
+		font-size: 3em;
+		padding: 2.5em 0 2.5em 0;
 	}
-	}	
+}	
+
+@media (min-width: 767px)	{
+
 }
 
 
