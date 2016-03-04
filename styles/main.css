@@ -1,3 +1,54 @@
+.top-bar {
+  overflow: hidden;
+  font-size: .8em; }
+  .top-bar span {
+    line-height: 3.25;
+    margin-left: 1em; }
+  .top-bar nav {
+    float: right; }
+  .top-bar a {
+    text-decoration: none;
+    margin: 0 4.6em 0 0; }
+  .top-bar .gray {
+    color: #8f8f8f; }
+  .top-bar .dark-gray {
+    font-weight: bold;
+    color: #5C5C5C; }
+  .top-bar li {
+    display: inline; }
+
+.tree-pic {
+  overflow: hidden;
+  text-align: center;
+  font-size: 2em;
+  font-family: arial;
+  color: white;
+  background: url(https://images.unsplash.com/2/05.jpg?crop=entropy&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325) top left no-repeat;
+  background-size: auto;
+  height: 8.375em; }
+  .tree-pic p:first-child {
+    margin-top: 2.3em; }
+
+.mid1 {
+  text-align: center; }
+  .mid1 > div {
+    font-size: 1.5em;
+    color: #8f8f8f; }
+  .mid1 p:first-child {
+    margin-top: 0em;
+    margin-bottom: 0;
+    font-size: .8em;
+    letter-spacing: .2em; }
+  .mid1 p:last-child {
+    font-size: 4em;
+    margin: 0; }
+  .mid1 .personal:first-child {
+    margin: 1em 10% 0 10%;
+    padding: 1em 0;
+    background-color: green; }
+  .mid1 p {
+    color: white; }
+
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 
