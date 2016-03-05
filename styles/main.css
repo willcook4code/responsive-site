@@ -32,8 +32,7 @@
     text-shadow: 1px 1px 2px black; }
 
 .mid1 {
-  text-align: center;
-  margin-bottom: 8em; }
+  text-align: center; }
   .mid1 a {
     color: #393939;
     text-decoration: none; }
@@ -201,12 +200,10 @@ footer {
     margin: 0; }
     .mid2 div {
       display: inline-flex;
-      margin: 3em 3% 1em 0%;
+      margin: 3em 3% 1em 1%;
       padding: 0 6%; }
       .mid2 div h3 {
-        margin-right: 10%; }
-        .mid2 div h3 span {
-          padding-left: 2em; } }
+        margin-right: 10%; } }
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 

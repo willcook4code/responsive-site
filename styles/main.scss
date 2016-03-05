@@ -1,7 +1,6 @@
 .top-bar {
 	overflow: hidden;
 	font-size: .8em;
-
 	span {
 	line-height: 3.25;
 	margin-left: 1em;
@@ -9,7 +8,6 @@
 	}
 	nav {
 		float: left;
-
 	}
 	a {
 		text-decoration: none;
@@ -42,16 +40,12 @@
 }
 .mid1 {
 	text-align: center;
-	margin-bottom: 8em;
-
 	a {
 		color: #393939;
 		text-decoration: none;
-
 	}
 	> div {
 		font-size: 1.5em;
-
 	}
 	.personal > div:first-child {
 		margin: 2em 3% 0 3%;
@@ -72,7 +66,6 @@
 		color: white;
 		}
 	}
-	
 	.features {
 		background-color: #f7f7f7;
 		margin: auto 3%;
@@ -249,13 +242,10 @@ footer {
 		margin: 0;
 		div{
 			display: inline-flex;
-    		margin: 3em 3% 1em 0%;
+    		margin: 3em 3% 1em 1%;
     		padding: 0 6%;
     		h3 {
     			margin-right: 10%;
-				span {
-					padding-left: 2em;
-				}
 			}
 		}
 	}
