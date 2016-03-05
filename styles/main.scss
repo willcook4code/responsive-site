@@ -50,8 +50,8 @@
 	.personal > div:first-child {
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
-		background-color: green;
-		color: rgba(255, 255, 255, .5);
+		background-color: rgba(0, 128, 0, .9);
+		color: rgba(255, 255, 255, .7);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -80,12 +80,12 @@
 		}	
 	}
 	.choose {
-		border: 1px solid #CCCCCC;
+		border: 1px solid rgba(0,0,0,.2);
 		margin: auto 3%;
 		color: #393939;
 		font-weight: bold;
 		p {
-			border: 1px solid #5C5C5C;
+			border: 1px solid rgba(0,0,0,.2);
 			-webkit-border-top-right-radius: 50px 30px; 
 			-webkit-border-bottom-right-radius: 50px 30px;
 			-webkit-border-top-left-radius: 50px 30px; 
@@ -100,8 +100,8 @@
 	.sm-bus > div:first-child {
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
-		background-color: #2C4985;
-		color: rgba(255, 255, 255, .5);
+		background-color: rgba(44, 73, 133, .9);
+		color: rgba(255, 255, 255, .7);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -131,12 +131,12 @@
 		}	
 	}
 	.choose {
-		border: 1px solid #CCCCCC;
+		border: 1px solid rgba(0,0,0,.2);
 		margin: auto 3%;
 		color: #393939;
 		font-weight: bold;
 		p {
-			border: 1px solid #CCCCCC;
+			border: 1px solid rgba(0,0,0,.2);
 			-webkit-border-top-right-radius: 50px 30px; 
 			-webkit-border-bottom-right-radius: 50px 30px;
 			-webkit-border-top-left-radius: 50px 30px; 
@@ -151,8 +151,8 @@
 	.enterprise > div:first-child {
 		margin: 2em 3% 0 3%;
 		padding: 2em 0;
-		background-color: black;
-		color: rgba(255, 255, 255, .5);
+		background-color: rgba(0, 0, 0, .9);
+		color: rgba(255, 255, 255, .7);
 		p:first-child {
 			margin-top: 0em;
 			margin-bottom: 0;
@@ -167,7 +167,6 @@
 		color: white;
 		}
 	}
-	
 	.features {
 		background-color: #f7f7f7;
 		margin: auto 3%;
@@ -176,17 +175,17 @@
 			font-size: .8em;
 			line-height: 3em;
 			margin: auto 0em;
-			border-top: 1px solid #999999;
-			border-right: 1px solid #999999;
-			border-left: 1px solid #999999;
+			border-top: 1px solid rgba(0,0,0,.2);
+			border-right: 1px solid rgba(0,0,0,.2);
+			border-left: 1px solid rgba(0,0,0,.2);
 		}	
 	}
 	.choose {
-		border: 1px solid #999999;
+		border: 1px solid rgba(0,0,0,.2);
 		margin: auto 3%;
 		font-weight: bold;
 		p {
-			border: 1px solid black;
+			border: 1px solid rgba(0,0,0,.2);
 			-webkit-border-top-right-radius: 50px 30px; 
 			-webkit-border-bottom-right-radius: 50px 30px;
 			-webkit-border-top-left-radius: 50px 30px; 
